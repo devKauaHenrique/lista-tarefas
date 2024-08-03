@@ -72,7 +72,7 @@ function App() {
         </div>
 
         <div>
-          {tarefas.map((item, index) => (
+          {tarefas.map((item) => (
             <section key={item}>
               <span>{item}</span>
               <div className='botoes'>
